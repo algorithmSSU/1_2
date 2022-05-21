@@ -4,7 +4,7 @@
 |주차|목차|문제|
 |:---:|:---:|:---:|
 |1주차| 1장,2장 | [BOJ2445](https://www.acmicpc.net/problem/2445), [BOJ1929](https://www.acmicpc.net/problem/1929),[BOJ1924](https://www.acmicpc.net/problem/1924), [BOJ1476](https://www.acmicpc.net/problem/1476)  |
-|2주차|3장 스택,큐| [프로그래머스COSPRO1급C++모의고사](https://programmers.co.kr/learn/courses/11114/lessons/70744) [[프로그래머스COSPRO1급JAVA모의고사](https://programmers.co.kr/learn/courses/11132/lessons/71148)]|
+|2주차|3장 스택,큐| [프로그래머스COSPRO1급C++모의고사](https://programmers.co.kr/learn/courses/11114/lessons/70744) [프로그래머스COSPRO1급JAVA모의고사](https://programmers.co.kr/learn/courses/11132/lessons/71148)|
 
 
 |이름|1주차|2주차|
