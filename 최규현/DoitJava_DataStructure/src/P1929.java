@@ -7,54 +7,30 @@ import java.util.StringTokenizer;
 public class P1929 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        StringTokenizer st = new StringTokenizer(br. readLine());
+        int start = Integer.parseInt(st.nextToken());
+        int end = Integer.parseInt(st.nextToken());
 
-        int M = Integer.parseInt(st.nextToken());
-        int N = Integer.parseInt(st.nextToken());
-        boolean[] num = new boolean[N+1];
+        int[] prime = new int[end]; //임의로 end개 int[] 객체 생성
+        int idx = 0;
+        prime[idx++] = 2;
+        prime[idx++] = 3;
 
-        int minimum = 0;
-        for(int i = 1 ; i <= N; i++){
-            if(i*i >= N){
-                minimum = i;
-                break;
+        for(int i = 5; i <= end; i+=2){
+            boolean isPrime = true;
+            for(int j = 1; prime[j] * prime[j] <= i; j++){
+                if(i % prime[j] == 0){
+                    isPrime =false;
+                    break;
+                }
             }
+            if(isPrime)
+                prime[idx++] = i;
         }
 
-        ArrayList<Integer> basicNum = new ArrayList<>();
-        for(int i = 2; i <= minimum; i++){
-            if(isPrimeNum(i)){
-                basicNum.add(i);
-            }
+        for(int i = 0 ; i < idx; i++) {
+            if(prime[i] >= start && prime[i] <= end)
+                System.out.println(prime[i]);
         }
-
-        int index = 0;
-        while (!basicNum.isEmpty()){
-            int tmp = basicNum.get(index++);
-            for(int i = 2; tmp <= N+1; i++){
-//                num[tmp * i] = true;
-                System.out.print(tmp*i + " ");
-            }
-            System.out.println();
-        }
-
-
-
-
-
-
-    }
-
-    private static boolean isPrimeNum(int num){
-        boolean answer = true;
-
-        for(int i = 2; i <= num; i++){
-            if(i != num && num % i == 0){
-                answer = false;
-                break;
-            }
-        }
-
-        return answer;
     }
 }
