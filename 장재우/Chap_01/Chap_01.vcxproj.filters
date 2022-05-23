@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\1">
+      <UniqueIdentifier>{39aa0698-1ed8-4ee4-8cd0-fa57047ae9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2">
+      <UniqueIdentifier>{f3ebf7eb-868c-41cd-9174-b6e5ef49c8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Quiz">
+      <UniqueIdentifier>{02b7e1d8-e2eb-41ab-951c-a31e027357fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Max3.cpp">
+      <Filter>소스 파일\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Max3m.cpp">
+      <Filter>소스 파일\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Median.cpp">
+      <Filter>소스 파일\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1_max4.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2_min3.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3_min4.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4_med3m.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q5.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q6_whileEnd.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7_SumPrint.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q8_GaussSum.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9_Sumof.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10_sub.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11_ndigit.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12_multi99Table.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13_add99Table.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q14_Rectangle.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q15_Triangle.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q16_StarPira.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q17_NumPira.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Digit.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi99Table.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="SumFor.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="SumForPos.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="SumWhile.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleLB.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
