@@ -14,6 +14,7 @@ int main(){
             n = a % 2;
             x = a % 5;
             if (n ==1 || x==1 ){
+                
 
                 cout << a << endl;
             }

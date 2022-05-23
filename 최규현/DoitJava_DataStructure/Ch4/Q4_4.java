@@ -3,20 +3,7 @@ public class Q4_4 {
     private int ptr;
     private int[] que;
 
-    public static void main(String[] args) {
-        Q4_4 tmp = new Q4_4(32);
-        tmp.enqueue(1);
-        tmp.enqueue(2);
-        tmp.enqueue(3);
-        tmp.enqueue(4);
-        tmp.dequeue();
-        tmp.dequeue();
-        tmp.dequeue();
-        tmp.dequeue();
-    }
-
     Q4_4(int capacity){
-        ptr = 0;
         max = capacity;
         que = new int[max];
     }
@@ -34,6 +21,5 @@ public class Q4_4 {
             tmp[idx++] = que[i];
         }
         ptr = idx;
-        que = tmp;
     }
 }
