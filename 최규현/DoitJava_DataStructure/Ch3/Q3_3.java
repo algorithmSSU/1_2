@@ -9,6 +9,7 @@ public class Q3_3 {
         int[] idx = new int[n];
         int index = 0;
 
+
         for(int i = 0; i < n; i++){
             if(a[i] == key){
                 idx[index] = i;
