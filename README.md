@@ -6,7 +6,7 @@
 |1주차| 1장,2장 | [BOJ2445](https://www.acmicpc.net/problem/2445), [BOJ1929](https://www.acmicpc.net/problem/1929),[BOJ1924](https://www.acmicpc.net/problem/1924), [BOJ1476](https://www.acmicpc.net/problem/1476)  |
 |2주차|3장 스택,큐| [프로그래머스COSPRO1급C++모의고사](https://programmers.co.kr/learn/courses/11114/lessons/70744) <br>[프로그래머스COSPRO1급JAVA모의고사](https://programmers.co.kr/learn/courses/11132/lessons/71148) <br> [프로그래머스42586](https://programmers.co.kr/learn/courses/30/lessons/42586) |
 |3주차|7장 집합| [BOJ14425](https://www.acmicpc.net/problem/14425) <br> [BOJ1717](https://www.acmicpc.net/problem/1717)|
-
+|4주차|8장 문자열 검색 9장 리스트|[프로그래머스 카카오블라인드 코테](https://programmers.co.kr/learn/courses/30/lessons/60057)|
 
 |이름|1주차|2주차|3주차|4주차|
 |:---:|:---:|:---:|:---:|:---:|
