@@ -21,13 +21,32 @@ void recur(int n){
         
     };
 };
-
 /*
 n=4
-recur(3) -> recur(2) -> recur(1) -> recur(0)
-recur(0-2) -> reur(1-2) -> recur(2-2) -> reucr(3-2)
 
 
+recur(4)
+    recur(3)
+        recur(2)
+            recur(1)
+                recur(0)
+                recur(-1)
+                1
+            recur(0)
+            2
+        recur(1)
+            recur(0)
+            recur(-1)
+            1
+        3
+    recur(2)
+        recur(1)
+            recur(0)
+            recur(-1)
+            1
+        recur(0)
+        2
 
-*/
+    4
 
+    recur(4)*/

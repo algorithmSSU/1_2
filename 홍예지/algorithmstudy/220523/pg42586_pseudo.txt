@@ -1,0 +1,23 @@
+progress = 95 90 99 99 80 99
+speeds = 1 1 1 1 1 1
+
+*ptr = progresses.begin();
+*end = progresses.end();
+while(ptr != progresses.end()){
+
+*begin<  100 일 때 progress에 speed++
+
+*begin>=100 이면
+for( begin~end) 탐색
+progress 값이 100미만이면 break;
+progress 값이 100이상이면  cnt++;
+
+
+for문을 빠져나와 cnt 값 삽입
+answer.push_back(cnt);
+
+cnt문을 빠져나와 begin 값 변경(cnt만큼 이동)
+begin+=cnt;
+
+}
+
