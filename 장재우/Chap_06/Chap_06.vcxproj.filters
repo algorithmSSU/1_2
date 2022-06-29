@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Quiz">
+      <UniqueIdentifier>{ab8477be-1954-466c-8fe5-0f152c8d97ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bubble_Selection_Insertion">
+      <UniqueIdentifier>{c5ee8386-e6f4-45fc-88eb-0fce6c2c892d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shell_Quick_Merge">
+      <UniqueIdentifier>{5ec3ab05-7a60-43fb-8f5b-b93978d3842c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sort.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>소스 파일\Bubble_Selection_Insertion</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>소스 파일\Bubble_Selection_Insertion</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>소스 파일\Bubble_Selection_Insertion</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSort.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>소스 파일\Shell_Quick_Merge</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>소스 파일\Shell_Quick_Merge</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellSort.h">
+      <Filter>소스 파일\Shell_Quick_Merge</Filter>
+    </ClInclude>
+    <ClInclude Include="FSort.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Q1_LeftToRightBubbleSort.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2_bubbleSortVer1Print.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3_BubbleSortVer2Print.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4_BubbleSortVer3Print.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q5_CocktailSort.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q6_InsertionSortPrint.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7_InsertionSortSentinel.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q8_BinaryInsertionSort.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9_ShellSortCnt.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="bubbleSort1.cpp">
+      <Filter>소스 파일\Bubble_Selection_Insertion</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>소스 파일\Bubble_Selection_Insertion</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13_QuickSortInsertion.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="heapSort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>소스 파일\Shell_Quick_Merge</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>소스 파일\Shell_Quick_Merge</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellSort1.cpp">
+      <Filter>소스 파일\Shell_Quick_Merge</Filter>
+    </ClCompile>
+    <ClCompile Include="Partition.cpp">
+      <Filter>소스 파일\Shell_Quick_Merge</Filter>
+    </ClCompile>
+    <ClCompile Include="FSort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Q19_fSortWithMin.cpp">
+      <Filter>소스 파일\Quiz</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
